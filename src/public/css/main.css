@@ -1,0 +1,75 @@
+*{
+ padding: 0%;
+ margin: 0%;
+ box-sizing: border-box;
+}
+
+.background {
+    background-image: url('/img/bg_hero_1.svg');
+
+}
+
+.flex-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: #f1f1f1;
+    flex: 20%;
+    margin:20px 5%;
+    padding: 5px;
+    border-radius:10px;
+}
+ 
+.bk{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.patter1{
+    background-image: url(/img/pattern.svg);
+}
+
+.patter2{
+    background-image: url(/img/pattern2.svg);
+}
+
+.header{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.name{
+    padding: 10px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Segoe UI light';
+}
+
+.name:hover{
+    border: 1px solid blueviolet;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+
+.btnName{
+
+}
+
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+}
